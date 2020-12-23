@@ -21,4 +21,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.0
 )
 
-replace github.com/logzio/logzio-go => github.com/albertteoh/logzio-go v0.0.0-20201223052551-9b2d201d9d8f
+replace github.com/logzio/logzio-go => github.com/albertteoh/logzio-go v0.0.0-20201223065812-af5c2c0038f0
