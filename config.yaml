@@ -1,3 +1,4 @@
 region: "us"
-apiToken: "api-token"
-accountToken: "sapmle-token"
+#apiToken: "api-token"
+accountToken: "cmARYawizOnnBlpzuCwjsHcpMFPSavGA"
+customListenerUrl: "http://listener.logz.io:8070"

@@ -2,6 +2,8 @@ package main
 
 import (
 	"flag"
+	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
+	"github.com/jaegertracing/jaeger/storage/spanstore"
 	"github.com/logzio/jaeger-logzio/store"
 	"os"
 
@@ -32,6 +34,19 @@ func main() {
 
 	logger.Info(logzioConfig.String())
 	logzioStore := store.NewLogzioStore(*logzioConfig, logger)
-	grpc.Serve(logzioStore)
+	ps := &shared.PluginServices{Store: logzioStore, ArchiveStore: &archiveStore{}}
+	grpc.Serve(ps)
 	logzioStore.Close()
+}
+
+type archiveStore struct {
+}
+
+func (as *archiveStore) ArchiveSpanReader() spanstore.Reader {
+	return nil
+}
+
+
+func (as *archiveStore) ArchiveSpanWriter() spanstore.Writer {
+	return nil
 }
