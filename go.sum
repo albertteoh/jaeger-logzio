@@ -31,6 +31,8 @@ github.com/albertteoh/logzio-go v0.0.0-20201223073319-720178386d2a h1:mGL29N20Wq
 github.com/albertteoh/logzio-go v0.0.0-20201223073319-720178386d2a/go.mod h1:03cJOJH9bAvTCrVqPo45hmXRM2jEscjKIdjbqAGjF1A=
 github.com/albertteoh/logzio-go v0.0.0-20201223212952-da7af9da5e46 h1:QUlxZWMewBROqkN12XU0yrUgpTVciP5EZpG1EGt0gjE=
 github.com/albertteoh/logzio-go v0.0.0-20201223212952-da7af9da5e46/go.mod h1:03cJOJH9bAvTCrVqPo45hmXRM2jEscjKIdjbqAGjF1A=
+github.com/albertteoh/logzio-go v0.0.0-20201223230132-544bb1bd93f6 h1:4/qRotLiQq6uSILUlqaj/ihudwYfNlxtSctZ4cxx54M=
+github.com/albertteoh/logzio-go v0.0.0-20201223230132-544bb1bd93f6/go.mod h1:03cJOJH9bAvTCrVqPo45hmXRM2jEscjKIdjbqAGjF1A=
 github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751/go.mod h1:LOuyumcjzFXgccqObfd/Ljyb9UuFJ6TxHnclSeseNhc=
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
